@@ -604,7 +604,8 @@ class MeroshareClient:
         except httpx.RequestError as e:
             raise MeroshareAPIError(f"Network error checking application eligibility: {e}")
 
-        if response.status_code != 200:
+        # Accept both 200 and 202 (ACCEPTED) as success
+        if response.status_code not in (200, 202):
             raise MeroshareAPIError(
                 f"Failed to check application eligibility: {response.text}",
                 status_code=response.status_code,
