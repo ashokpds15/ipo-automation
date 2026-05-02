@@ -11,7 +11,7 @@ numpy==2.4.4
 opencv-python==4.13.0.92
 
 # CLI & UI
-rich==14.3.2
+rich==15.0.0
 python-dotenv==1.2.1
 
 # Training & Data Collection (optional - only needed for retraining)
