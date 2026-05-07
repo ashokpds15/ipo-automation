@@ -15,6 +15,6 @@ rich==15.0.0
 python-dotenv==1.2.1
 
 # Training & Data Collection (optional - only needed for retraining)
-Pillow==12.1.1
+Pillow==12.2.0
 scikit-learn==1.8.0
 tqdm==4.67.3
