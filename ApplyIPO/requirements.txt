@@ -1,5 +1,5 @@
 # Core dependencies for IPO automation
-python-dotenv>=1.0.0,<2.0.0
+python-dotenv>=1.2.2,<2.0.0
 rich>=15.0.0,<16.0.0
 
 # For API-based scripts (main_api.py, run_multi_account_api.py)
