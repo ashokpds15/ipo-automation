@@ -12,7 +12,7 @@ opencv-python==4.13.0.92
 
 # CLI & UI
 rich==15.0.0
-python-dotenv==1.2.1
+python-dotenv==1.2.2
 
 # Training & Data Collection (optional - only needed for retraining)
 Pillow==12.2.0
